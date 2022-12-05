@@ -12,7 +12,7 @@ const useForecast = () => {
 
   const getSearchOptions = async (term: string) => {
     fetch(
-      `${BASE_URL}/geo/1.0/direct?q=${term.trim()}&limit=5&lang=en&appid=${
+      `${BASE_URL}/geo/1.0/direct?q=${term.trim()}&limit=5&appid=${
         process.env.REACT_APP_API_KEY
       }`
     )
