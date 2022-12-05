@@ -4,7 +4,6 @@ import Search from './components/Search'
 import useForecast from './hooks/useForecast'
 
 const App = (): JSX.Element => {
-  console.log(process.env.REACT_APP_API_KEY)
   const {
     term,
     options,
